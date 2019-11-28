@@ -111,7 +111,8 @@ void medir (){
   //
   delay(2000);
   //
-  // eliminar datos del búfer que subió allí durante una pausa
+  // eliminar datos del búfer que 
+  //subió allí durante una pausa
   //
   
   while (mySerial.available() > 0) {
